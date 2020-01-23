@@ -8,18 +8,6 @@ $(window).on('load', function () {
 });
 
 
-/*MENU*/
-$(document).on("ready", function () {
-    $("#menu .cd-nav-trigger").click(function () {
-        $("#menu").toggleClass("menu-open");
-		$(".nav-bar").toggleClass("open-menu");
-		$('#menu .bar').toggleClass('animate');
-		$("body").toggleClass("open-menu");
-    });
-	
-});
-
-
 //anchor
 jQuery(document).ready(function(){
 	$(".anchor").on("click", function (event) {
@@ -36,16 +24,18 @@ jQuery(document).ready(function(){
 
 
 //	accordion
-$(document).on("ready", function () {
-	$(".faq-accordion .item").click(function () {
-		$(".faq-accordion .item").removeClass('active');
-		$(this).addClass('active');
-		$(".faq-accordion .item.active .panel").slideToggle(300);
-		
-	});
-	
-});	
-
+$('.accordion-item .heading').on('click', function(e) {
+    e.preventDefault();
+    if($(this).closest('.accordion-item').hasClass('active')) {
+        $('.accordion-item').removeClass('active');
+    } else {
+        $('.accordion-item').removeClass('active');
+        $(this).closest('.accordion-item').addClass('active');
+    }
+    var $content = $(this).next();
+    $content.slideToggle(100);
+    $('.accordion-item .content').not($content).slideUp('fast');
+});
 
 
 $(document).scroll(function () {
