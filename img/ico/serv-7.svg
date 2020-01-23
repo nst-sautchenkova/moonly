@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="28px" viewBox="0 0 40 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>telegram-bots</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="telegram-bots" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M40,2 L32,5.15028814 C33.6141408,5.41875781 35.1035898,6.06645425 36.376033,7 L40,2 Z" id="Path"></path>
+            <path d="M19.6437727,15.4617489 C19.6437727,13.0249987 20.5095901,10.7801869 21.9590436,9 L12.3696008,12.6087009 L8,20.0212375 L14.1178345,17.7346437 L20.8506935,28 L24,23.8476005 C21.3577072,21.938795 19.6437727,18.8903077 19.6437727,15.4617489 Z" id="Path"></path>
+            <polygon id="Path" points="30 4 7.44255541 9.04043713 6 19 10.661218 10.9832276"></polygon>
+            <polygon id="Path" points="40 0 0 0.661206857 6.18453125 7"></polygon>
+            <path d="M30.4999608,7 C25.813057,7 22,10.5887595 22,15.0000369 C22,19.4112405 25.813057,23 30.4999608,23 C35.186943,23 39,19.4112405 39,15.0000369 C39,10.5887595 35.1868646,7 30.4999608,7 Z M29.6800387,18.2598631 L29.6800387,13.495235 L28.5162682,13.495235 L28.5162682,11.8705595 L31.9687821,11.8705595 L31.9687821,18.2598631 L29.6800387,18.2598631 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
